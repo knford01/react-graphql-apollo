@@ -78,6 +78,7 @@ export default function AddOrder({ customerId }: AppProps) {
                                 totalInCents: total
                             }
                         });
+                        setActive(false);
                         // console.log(customerId, description, total);
                     }}
                 >
